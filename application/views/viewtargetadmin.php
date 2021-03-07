@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Assignment2</title>
+        <title>mobilization</title>
             <meta charset=utf-8>
             <meta name="viewport" content="width=device-width,initial-scale=1">
             <!---Fontawesome--->
@@ -11,12 +11,14 @@
             <!---custom style---->
             <link rel="stylesheet" href="../css/style.css">
     </head>
+    <!--nav starts-->
       <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
           <div class="navbar-header">
       <a class="navbar-brand" href="<?php echo base_url()?>Main/dashboard_ddu"> Home</a>  
         </div>
     </nav>
+    <!--nav ends---->
 <body>
     <table class="table table-hover mt-5">
       <center><h1>District wise target</h1></center>
@@ -53,9 +55,6 @@
    
   </tbody>
 </table>
-
-
-
 <table class="table table-hover mt-5">
   <center><h1>Project target</h1></center>
   <thead>
@@ -87,8 +86,6 @@
    
   </tbody>
 </table>
-
-
 <table class="table table-hover mt-5">
   <center><h1>Course target</h1></center>
   <thead>
@@ -109,8 +106,7 @@
       <td><?php echo $row->cname;?></td>
       <td><?php echo $row->totalseat;?></td>
       <td><?php echo $row->totalseatrem;?></td>
-    
-                </tr>
+      </tr>
      
     </tr>
     <?php     }
@@ -120,9 +116,7 @@
    
   </tbody>
 </table>
-   
 </body>
-
 <!---Jquery--->
 <script
   src="https://code.jquery.com/jquery-3.5.1.js"integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
